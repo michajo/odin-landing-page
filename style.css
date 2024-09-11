@@ -23,7 +23,7 @@ body {
   height: 50px;
   justify-content: center;
   align-items: center;
-  gap: 310px;
+  gap: 340px;
 }
 .logo {
   color: whitesmoke;
@@ -51,7 +51,8 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 50px;
+  padding: 50px 0px;
 }
 .upper-left {
   display: flex;
@@ -114,7 +115,7 @@ button {
   justify-content: center;
   align-items: center;
   width: 500px;
-  height: 250px;
+  height: 220px;
   background-color: hsl(214, 7%, 46%);
   text-align: center;
 }
@@ -174,6 +175,7 @@ button {
 h3 {
   margin: 0;
   margin-bottom: -10px;
+  font-size: 20px;
 }
 .footer {
   display: flex;
