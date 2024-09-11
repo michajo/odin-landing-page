@@ -1,8 +1,8 @@
 * {
   font-family: "Roboto", sans-serif;
-  border-style: solid;
+  /* border-style: solid;
   border-color: red;
-  border-width: 1px;
+  border-width: 1px; */
   box-sizing: border-box;
 }
 body {
@@ -22,12 +22,14 @@ body {
   flex: 1 0 auto;
   height: 50px;
   padding: 10px;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 .logo {
   color: whitesmoke;
   font-weight: bold;
+  width: 400px;
+  padding-left: 40px;
   font-size: 24px;
 }
 ul {
@@ -46,7 +48,7 @@ a {
 
 .upper-section {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   padding: 50px;
 }
@@ -120,6 +122,7 @@ button {
   width: 100px;
   height: 100px;
   border-radius: 10%;
+  border-style: solid;
   border-width: 3px;
   border-color: hsl(217, 91%, 60%);
 }
