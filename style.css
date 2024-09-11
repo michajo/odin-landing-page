@@ -46,6 +46,17 @@ a {
 
 .upper-section {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+.upper-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 400px;
+  gap: 10px;
+  padding: 50px;
 }
 
 button {
@@ -62,6 +73,13 @@ button {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+}
+.title {
+  margin-bottom: 0px;
+}
+.sub-title {
+  font-size: 14px;
+  color: lightslategrey;
 }
 .card-title {
   font-weight: 900;
@@ -91,7 +109,7 @@ button {
   justify-content: center;
   align-items: center;
   width: 500px;
-  height: 200px;
+  height: 250px;
   background-color: hsl(214, 7%, 46%);
   text-align: center;
 }
