@@ -1,8 +1,8 @@
 * {
   font-family: "Roboto", sans-serif;
-  /* border-style: solid;
+  border-style: solid;
   border-color: red;
-  border-width: 1px; */
+  border-width: 1px;
   box-sizing: border-box;
 }
 body {
@@ -22,19 +22,21 @@ body {
   flex: 1 0 auto;
   height: 50px;
   padding: 10px;
-  justify-content: space-around;
+  gap: 80px;
+  justify-content: center;
   align-items: center;
 }
 .logo {
   color: whitesmoke;
   font-weight: bold;
   width: 400px;
-  padding-left: 40px;
+
   font-size: 24px;
 }
 ul {
   list-style-type: none;
   margin: 0;
+  margin-right: -50px;
   padding: 0;
   display: flex;
 }
@@ -48,7 +50,7 @@ a {
 
 .upper-section {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   padding: 50px;
 }
@@ -75,6 +77,7 @@ button {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  padding-bottom: 50px;
 }
 .title {
   margin-bottom: 0px;
@@ -127,7 +130,23 @@ button {
   border-color: hsl(217, 91%, 60%);
 }
 .lower-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: hsl(220, 13%, 91%);
+  height: 250px;
+}
+.quote {
+  width: 500px;
+  font-size: 24px;
+  font-weight: 300;
+  font-style: italic;
+}
+.quote-atrib {
+  text-align: right;
+  margin-right: 0;
+  font-weight: 900;
 }
 .footer {
   display: flex;
